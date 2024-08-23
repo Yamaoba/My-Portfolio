@@ -1,0 +1,57 @@
+body {
+  background-color: #ffe6a7;
+  color: #e26d5c;
+}
+
+.navigation {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+}
+
+a:visited,
+a:active {
+  color: inherit;
+  text-decoration: none;
+
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.current-nav {
+  text-decoration: underline;
+}
+
+.navbar:first-child {
+  margin-left: 35vw;
+}
+
+.navbar:last-child {
+  margin-right: 35vw;
+}
+
+.navbar {
+  font-size: 20px;
+  margin-top: 7vh;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.container-big-text {
+  display: flex;
+  justify-content: center;
+
+}
+
+.big-center-text {
+  margin-top: 20vh;
+  font-size: 144px;
+}
