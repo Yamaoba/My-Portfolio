@@ -10,13 +10,27 @@ body {
   text-decoration: none;
 }
 
+.lexend-deca-h1 {
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+#slide-1 {
+  margin-bottom: 32.2vh;
+}
+
+#slide-2 {
+  border: 10px solid red;
+}
+
 a {
-  text-decoration: none
+  text-decoration: none;
 }
 
 a:visited {
   color: inherit;
-
 }
 
 a:active {
@@ -52,7 +66,6 @@ a:hover {
 .container-big-text {
   display: flex;
   justify-content: center;
-
 }
 
 .big-center-text {
@@ -61,7 +74,6 @@ a:hover {
 }
 
 #about {
-  margin-top: 345px;
   height: 100vh;
   background-color: #fff4d8;
 }
