@@ -1,3 +1,7 @@
+* {
+  margin-left: 0;
+}
+
 body {
   background-color: #ffe6a7;
   color: #e26d5c;
@@ -10,7 +14,7 @@ body {
   text-decoration: none;
 }
 
-.lexend-deca-h1 {
+.lexend-deca-h {
   font-family: "Lexend Deca", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
@@ -18,11 +22,11 @@ body {
 }
 
 #slide-1 {
-  margin-bottom: 32.2vh;
+  margin-bottom: 33.2vh;
 }
 
 #slide-2 {
-  border: 10px solid red;
+  background-color: #fff4d8;
 }
 
 a {
@@ -60,6 +64,7 @@ a:hover {
 }
 
 .typewrite {
+  pointer-events: none;
   text-decoration: underline;
 }
 
@@ -74,6 +79,11 @@ a:hover {
 }
 
 #about {
+  padding-top: 1vh;
+  margin-left: 5vw;
   height: 100vh;
-  background-color: #fff4d8;
+}
+
+#h1-about {
+  font-size: 60px;
 }
